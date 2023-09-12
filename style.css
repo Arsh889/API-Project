@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fcb0b0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .blockquote {
+    margin: 20px 0;
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  .search-control {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #81dde9;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-btn {
+    border: 1px solid #caee68;
+    border-radius: 0 4px 4px 0;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .book-wrapper {
+    background-color: #cd9cee;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-search-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .book-search-box .search-control {
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .book-search-box .search-btn {
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .book-result {
+    margin-top: 20px;
+  }
+  
+  .book-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-item:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .book-img img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .book-details {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .showBook .book-details {
+    display: block;
+  }
+  
+  .book-close-btn {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    float: right;
+    outline: none;
+  }
+  
+  .book-details-content {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details-content .book-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .book-details-content a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .notFound {
+    color: red;
+  }
+  
